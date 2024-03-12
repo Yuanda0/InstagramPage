@@ -136,7 +136,7 @@ export default function MainPage() {
       </div>
       <p className="text-center text-[17px] text-zinc-400">YA DA</p>
       <div className="flex gap-2 items-center mt-5">
-        <img src={links.fb} alt="" />
+        <Image src={links.fb} alt="" width={17} height={18} />
         <p className="text-blue-500 font-medium text-[14px]">
           Facebook ile Giriş Yap
         </p>
@@ -159,12 +159,8 @@ export default function MainPage() {
       <div className="items-center">
         <p className="text-[14px] mt-14 text-center">Uygulamayı indir.</p>
         <div className="flex gap-3 mt-3">
-          <img
-            className="w-[134.28px] h-[40px]"
-            src={links.googleplay}
-            alt=""
-          />
-          <img className="w-[110.77px] h-[40px]" src={links.microsoft} alt="" />
+          <Image width={134.28} height={40} src={links.googleplay} alt="" />
+          <Image width={110.77} height={40} src={links.microsoft} alt="" />
         </div>
       </div>
       <div className="flex mt-10 text-zinc-500 text-[12px] flex-wrap gap-4 max-w-[340px] justify-center">
